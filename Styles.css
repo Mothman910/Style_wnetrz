@@ -1,6 +1,42 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;	
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #a0834d;
+  background: linear-gradient(
+    70deg,
+    #000205 0%,
+    #0c0f0e 25%,
+    #3f311b 50%,
+    #a0834d 100%
+  );
+}
+
+#modern-style {
+  background-color: antiquewhite;
+  background-image: url("./Obrazy robocze/Modern\ style.png");
+  background-position: center;
+  width: 75%;
+  aspect-ratio: 26/20;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#modern-style-header {
+  height: 100%;
+  width: 30%;
+  position: relative;
+  left: 0;
+  background-color: #111713;
 }
